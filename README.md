@@ -3,8 +3,7 @@
 A lightweight, performant React component library for building responsive layouts using CSS custom properties with full TypeScript support.
 
 [![npm version](https://img.shields.io/npm/v/%40peransa%2Fbox.svg)](https://www.npmjs.com/package/@peransa/box)
-[![license](https://img.shields.io/npm/l/%40peransa%2Fbox.svg)](./LICENSE)
-[![Bundle size](https://img.shields.io/bundlephobia/min/%40peransa%2Fbox)](https://bundlephobia.com/result?p=@peransa/box)
+[![license](https://img.shields.io/npm/l/%40peransa%2Fbox)](./LICENSE)
 
 ## ✨ Features
 

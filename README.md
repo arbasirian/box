@@ -431,8 +431,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Links
 
-- [GitHub Repository](https://github.com/arbasirian/peransa-box)
-- [Issue Tracker](https://github.com/arbasirian/peransa-box/issues)
+- [GitHub Repository](https://github.com/arbasirian/box)
+- [Issue Tracker](https://github.com/arbasirian/box/issues)
 - [API Documentation](API.md)
 - [Quick Start Guide](QUICKSTART.md)
 - [Changelog](CHANGELOG.md)

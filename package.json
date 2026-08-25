@@ -1,6 +1,6 @@
 {
   "name": "@peransa/box",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight, performant React component library for building responsive layouts with CSS custom properties, smart defaults, and comprehensive TypeScript support",
   "type": "module",
   "main": "dist/index.js",

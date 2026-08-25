@@ -1,4 +1,4 @@
-# Boxify React - API Documentation
+# @peransa/box - API Documentation
 
 ## Overview
 
@@ -9,7 +9,7 @@ The Box component is a powerful, polymorphic React component that provides compr
 ### Import
 
 ```tsx
-import { Box } from "boxify-react";
+import { Box } from "@peransa/box";
 ```
 
 ### Basic Usage
@@ -359,7 +359,7 @@ interface BaseProps {
 All props are fully typed with TypeScript:
 
 ```tsx
-import { Box, BoxProps } from "boxify-react";
+import { Box, BoxProps } from "@peransa/box";
 
 // Props are fully typed
 const MyComponent: React.FC = () => {

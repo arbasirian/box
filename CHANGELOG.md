@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.0] - 2026-08-25
+
+### Changed
+
+- **BREAKING**: Renamed package from `boxify-react` to `@peransa/box`, matching the scoped naming convention adopted for `@peransa/table`
+- Updated `repository`, `bugs`, and `homepage` fields to point at `arbasirian/peransa-box`
+- Added `peransa` keyword; rewrote README, API.md, and QUICKSTART.md install/import examples for the new package name
+
 ## [0.1.13] - 2024-09-06
 
 ### Added

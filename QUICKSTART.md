@@ -1,11 +1,11 @@
-# Boxify React - Quick Start Guide
+# @peransa/box - Quick Start Guide
 
-Get up and running with Boxify React in minutes! This guide will walk you through the basics of using the enhanced Box component.
+Get up and running with @peransa/box in minutes! This guide will walk you through the basics of using the enhanced Box component.
 
 ## 🚀 Installation
 
 ```bash
-npm install boxify-react
+npm install @peransa/box
 ```
 
 ## 📱 Basic Usage
@@ -13,12 +13,12 @@ npm install boxify-react
 ### Simple Box
 
 ```tsx
-import { Box } from "boxify-react";
+import { Box } from "@peransa/box";
 
 function App() {
   return (
     <Box padding="20px" backgroundColor="#f0f0f0" borderRadius="8px">
-      Hello, Boxify!
+      Hello, Box!
     </Box>
   );
 }
@@ -273,4 +273,4 @@ npm run size:gzip
 3. **Build Something**: Start with a simple layout and expand
 4. **Customize**: Add your own CSS modules for additional styling
 
-Happy coding with Boxify React! 🎉
+Happy coding with @peransa/box! 🎉

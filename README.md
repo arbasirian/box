@@ -1,10 +1,10 @@
-# Boxify React
+# @peransa/box
 
 A lightweight, performant React component library for building responsive layouts using CSS custom properties with full TypeScript support.
 
-[![npm version](https://badge.fury.io/js/boxify-react.svg)](https://badge.fury.io/js/boxify-react)
-[![Bundle size](https://img.shields.io/bundlephobia/min/boxify-react)](https://bundlephobia.com/result?p=boxify-react)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://img.shields.io/npm/v/%40peransa%2Fbox.svg)](https://www.npmjs.com/package/@peransa/box)
+[![license](https://img.shields.io/npm/l/%40peransa%2Fbox.svg)](./LICENSE)
+[![Bundle size](https://img.shields.io/bundlephobia/min/%40peransa%2Fbox)](https://bundlephobia.com/result?p=@peransa/box)
 
 ## ✨ Features
 
@@ -21,15 +21,15 @@ A lightweight, performant React component library for building responsive layout
 ## 📦 Installation
 
 ```bash
-npm install boxify-react
+npm install @peransa/box
 ```
 
 ```bash
-yarn add boxify-react
+yarn add @peransa/box
 ```
 
 ```bash
-pnpm add boxify-react
+pnpm add @peransa/box
 ```
 
 ### CSS Import
@@ -38,7 +38,7 @@ After installation, you need to import the CSS file to ensure the styles work pr
 
 ```tsx
 // In your main entry file (e.g., App.tsx, main.tsx, or index.tsx)
-import "boxify-react/dist/index.css";
+import "@peransa/box/dist/index.css";
 ```
 
 **Note**: The CSS import is required for the Box component's responsive styles and CSS custom properties to function correctly.
@@ -46,7 +46,7 @@ import "boxify-react/dist/index.css";
 ## 🚀 Quick Start
 
 ```tsx
-import { Box } from "boxify-react";
+import { Box } from "@peransa/box";
 
 function App() {
   return (
@@ -64,7 +64,7 @@ function App() {
         tablet={{ fontSize: "18px" }}
         desktop={{ fontSize: "20px" }}
       >
-        Hello, Boxify!
+        Hello, Box!
       </Box>
     </Box>
   );
@@ -75,10 +75,10 @@ function App() {
 
 ### CX Utility for Conditional Classes
 
-Boxify includes a lightweight `cx` utility function (similar to the [classnames](https://github.com/JedWatson/classnames) library) for conditionally joining class names together:
+@peransa/box includes a lightweight `cx` utility function (similar to the [classnames](https://github.com/JedWatson/classnames) library) for conditionally joining class names together:
 
 ```tsx
-import { Box, cx } from "boxify-react";
+import { Box, cx } from "@peransa/box";
 
 function Button({ isActive, isDisabled, variant }) {
   const buttonClasses = cx("btn", "btn-base", {
@@ -103,7 +103,7 @@ function Button({ isActive, isDisabled, variant }) {
 
 ## 📱 Responsive Design
 
-Boxify uses a mobile-first approach with CSS custom properties and responsive fallbacks:
+@peransa/box uses a mobile-first approach with CSS custom properties and responsive fallbacks:
 
 ```tsx
 <Box
@@ -431,8 +431,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Links
 
-- [GitHub Repository](https://github.com/arbasirian/boxify)
-- [Issue Tracker](https://github.com/arbasirian/boxify/issues)
+- [GitHub Repository](https://github.com/arbasirian/peransa-box)
+- [Issue Tracker](https://github.com/arbasirian/peransa-box/issues)
 - [API Documentation](API.md)
 - [Quick Start Guide](QUICKSTART.md)
 - [Changelog](CHANGELOG.md)
